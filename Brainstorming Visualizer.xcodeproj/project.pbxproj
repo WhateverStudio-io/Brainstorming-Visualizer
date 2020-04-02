@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E789592E24358D9500FF83CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E789592D24358D9500FF83CA /* AppDelegate.swift */; };
+		E789593024358D9500FF83CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E789592F24358D9500FF83CA /* SceneDelegate.swift */; };
+		E789593224358D9500FF83CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E789593124358D9500FF83CA /* ContentView.swift */; };
+		E789593424358D9700FF83CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E789593324358D9700FF83CA /* Assets.xcassets */; };
+		E789593724358D9700FF83CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E789593624358D9700FF83CA /* Preview Assets.xcassets */; };
+		E789593A24358D9700FF83CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E789593824358D9700FF83CA /* LaunchScreen.storyboard */; };
+		E789594524358D9700FF83CA /* Brainstorming_VisualizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E789594424358D9700FF83CA /* Brainstorming_VisualizerTests.swift */; };
+		E789595024358D9700FF83CA /* Brainstorming_VisualizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E789594F24358D9700FF83CA /* Brainstorming_VisualizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E789594124358D9700FF83CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E789592224358D9500FF83CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E789592924358D9500FF83CA;
+			remoteInfo = "Brainstorming Visualizer";
+		};
+		E789594C24358D9700FF83CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E789592224358D9500FF83CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E789592924358D9500FF83CA;
+			remoteInfo = "Brainstorming Visualizer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E789592A24358D9500FF83CA /* Brainstorming Visualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brainstorming Visualizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E789592D24358D9500FF83CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E789592F24358D9500FF83CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E789593124358D9500FF83CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E789593324358D9700FF83CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E789593624358D9700FF83CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E789593924358D9700FF83CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E789593B24358D9700FF83CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E789594024358D9700FF83CA /* Brainstorming VisualizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brainstorming VisualizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E789594424358D9700FF83CA /* Brainstorming_VisualizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brainstorming_VisualizerTests.swift; sourceTree = "<group>"; };
+		E789594624358D9700FF83CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E789594B24358D9700FF83CA /* Brainstorming VisualizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brainstorming VisualizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E789594F24358D9700FF83CA /* Brainstorming_VisualizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brainstorming_VisualizerUITests.swift; sourceTree = "<group>"; };
+		E789595124358D9700FF83CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E789592724358D9500FF83CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E789593D24358D9700FF83CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E789594824358D9700FF83CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E789592124358D9500FF83CA = {
+			isa = PBXGroup;
+			children = (
+				E789592C24358D9500FF83CA /* Brainstorming Visualizer */,
+				E789594324358D9700FF83CA /* Brainstorming VisualizerTests */,
+				E789594E24358D9700FF83CA /* Brainstorming VisualizerUITests */,
+				E789592B24358D9500FF83CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E789592B24358D9500FF83CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E789592A24358D9500FF83CA /* Brainstorming Visualizer.app */,
+				E789594024358D9700FF83CA /* Brainstorming VisualizerTests.xctest */,
+				E789594B24358D9700FF83CA /* Brainstorming VisualizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E789592C24358D9500FF83CA /* Brainstorming Visualizer */ = {
+			isa = PBXGroup;
+			children = (
+				E789592D24358D9500FF83CA /* AppDelegate.swift */,
+				E789592F24358D9500FF83CA /* SceneDelegate.swift */,
+				E789593124358D9500FF83CA /* ContentView.swift */,
+				E789593324358D9700FF83CA /* Assets.xcassets */,
+				E789593824358D9700FF83CA /* LaunchScreen.storyboard */,
+				E789593B24358D9700FF83CA /* Info.plist */,
+				E789593524358D9700FF83CA /* Preview Content */,
+			);
+			path = "Brainstorming Visualizer";
+			sourceTree = "<group>";
+		};
+		E789593524358D9700FF83CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E789593624358D9700FF83CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E789594324358D9700FF83CA /* Brainstorming VisualizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E789594424358D9700FF83CA /* Brainstorming_VisualizerTests.swift */,
+				E789594624358D9700FF83CA /* Info.plist */,
+			);
+			path = "Brainstorming VisualizerTests";
+			sourceTree = "<group>";
+		};
+		E789594E24358D9700FF83CA /* Brainstorming VisualizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E789594F24358D9700FF83CA /* Brainstorming_VisualizerUITests.swift */,
+				E789595124358D9700FF83CA /* Info.plist */,
+			);
+			path = "Brainstorming VisualizerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E789592924358D9500FF83CA /* Brainstorming Visualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E789595424358D9700FF83CA /* Build configuration list for PBXNativeTarget "Brainstorming Visualizer" */;
+			buildPhases = (
+				E789592624358D9500FF83CA /* Sources */,
+				E789592724358D9500FF83CA /* Frameworks */,
+				E789592824358D9500FF83CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brainstorming Visualizer";
+			productName = "Brainstorming Visualizer";
+			productReference = E789592A24358D9500FF83CA /* Brainstorming Visualizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E789593F24358D9700FF83CA /* Brainstorming VisualizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E789595724358D9700FF83CA /* Build configuration list for PBXNativeTarget "Brainstorming VisualizerTests" */;
+			buildPhases = (
+				E789593C24358D9700FF83CA /* Sources */,
+				E789593D24358D9700FF83CA /* Frameworks */,
+				E789593E24358D9700FF83CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E789594224358D9700FF83CA /* PBXTargetDependency */,
+			);
+			name = "Brainstorming VisualizerTests";
+			productName = "Brainstorming VisualizerTests";
+			productReference = E789594024358D9700FF83CA /* Brainstorming VisualizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E789594A24358D9700FF83CA /* Brainstorming VisualizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E789595A24358D9700FF83CA /* Build configuration list for PBXNativeTarget "Brainstorming VisualizerUITests" */;
+			buildPhases = (
+				E789594724358D9700FF83CA /* Sources */,
+				E789594824358D9700FF83CA /* Frameworks */,
+				E789594924358D9700FF83CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E789594D24358D9700FF83CA /* PBXTargetDependency */,
+			);
+			name = "Brainstorming VisualizerUITests";
+			productName = "Brainstorming VisualizerUITests";
+			productReference = E789594B24358D9700FF83CA /* Brainstorming VisualizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E789592224358D9500FF83CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = WhateverStudio;
+				TargetAttributes = {
+					E789592924358D9500FF83CA = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					E789593F24358D9700FF83CA = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = E789592924358D9500FF83CA;
+					};
+					E789594A24358D9700FF83CA = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = E789592924358D9500FF83CA;
+					};
+				};
+			};
+			buildConfigurationList = E789592524358D9500FF83CA /* Build configuration list for PBXProject "Brainstorming Visualizer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E789592124358D9500FF83CA;
+			productRefGroup = E789592B24358D9500FF83CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E789592924358D9500FF83CA /* Brainstorming Visualizer */,
+				E789593F24358D9700FF83CA /* Brainstorming VisualizerTests */,
+				E789594A24358D9700FF83CA /* Brainstorming VisualizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E789592824358D9500FF83CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E789593A24358D9700FF83CA /* LaunchScreen.storyboard in Resources */,
+				E789593724358D9700FF83CA /* Preview Assets.xcassets in Resources */,
+				E789593424358D9700FF83CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E789593E24358D9700FF83CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E789594924358D9700FF83CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E789592624358D9500FF83CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E789592E24358D9500FF83CA /* AppDelegate.swift in Sources */,
+				E789593024358D9500FF83CA /* SceneDelegate.swift in Sources */,
+				E789593224358D9500FF83CA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E789593C24358D9700FF83CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E789594524358D9700FF83CA /* Brainstorming_VisualizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E789594724358D9700FF83CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E789595024358D9700FF83CA /* Brainstorming_VisualizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E789594224358D9700FF83CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E789592924358D9500FF83CA /* Brainstorming Visualizer */;
+			targetProxy = E789594124358D9700FF83CA /* PBXContainerItemProxy */;
+		};
+		E789594D24358D9700FF83CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E789592924358D9500FF83CA /* Brainstorming Visualizer */;
+			targetProxy = E789594C24358D9700FF83CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E789593824358D9700FF83CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E789593924358D9700FF83CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E789595224358D9700FF83CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E789595324358D9700FF83CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E789595524358D9700FF83CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Brainstorming Visualizer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Brainstorming Visualizer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WhateverStudio.Brainstorming-Visualizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E789595624358D9700FF83CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Brainstorming Visualizer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Brainstorming Visualizer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WhateverStudio.Brainstorming-Visualizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E789595824358D9700FF83CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brainstorming VisualizerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WhateverStudio.Brainstorming-VisualizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brainstorming Visualizer.app/Brainstorming Visualizer";
+			};
+			name = Debug;
+		};
+		E789595924358D9700FF83CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brainstorming VisualizerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WhateverStudio.Brainstorming-VisualizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brainstorming Visualizer.app/Brainstorming Visualizer";
+			};
+			name = Release;
+		};
+		E789595B24358D9700FF83CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brainstorming VisualizerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WhateverStudio.Brainstorming-VisualizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brainstorming Visualizer";
+			};
+			name = Debug;
+		};
+		E789595C24358D9700FF83CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brainstorming VisualizerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WhateverStudio.Brainstorming-VisualizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brainstorming Visualizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E789592524358D9500FF83CA /* Build configuration list for PBXProject "Brainstorming Visualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E789595224358D9700FF83CA /* Debug */,
+				E789595324358D9700FF83CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E789595424358D9700FF83CA /* Build configuration list for PBXNativeTarget "Brainstorming Visualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E789595524358D9700FF83CA /* Debug */,
+				E789595624358D9700FF83CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E789595724358D9700FF83CA /* Build configuration list for PBXNativeTarget "Brainstorming VisualizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E789595824358D9700FF83CA /* Debug */,
+				E789595924358D9700FF83CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E789595A24358D9700FF83CA /* Build configuration list for PBXNativeTarget "Brainstorming VisualizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E789595B24358D9700FF83CA /* Debug */,
+				E789595C24358D9700FF83CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E789592224358D9500FF83CA /* Project object */;
+}
